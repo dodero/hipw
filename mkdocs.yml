@@ -1,0 +1,53 @@
+site_name: Herramientas Informáticas de Publicación Web
+site_description: Apuntes de ampliación de Herramientas Informáticas de Publicación Web – Grado en Marketing e Investigación de Mercados
+site_author: Juan Manuel Dodero
+nav:
+    - Tabla de contenidos: index.md
+    - Marketing en buscadores: sem.md
+    - Infraestructura de Internet: inet.md
+    - Web Semántica y Linked Data: lod.md
+#    - Contenidos: cms.md
+#    - Licencias: lic.md
+    - Seguridad: seg.md
+theme: 
+    name: 'material'
+    features:
+#        - navigation.tabs
+        - navigation.sections
+#        - navigation.instant.sticky
+#   logo:
+#        icon: "\uE80C" 
+markdown_extensions:
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:pymdownx.emoji.twemoji
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde    
+    - admonition
+    - toc:
+        permalink: true
+        baselevel: 2
+    - def_list
+extra:
+    search:
+        language: 'en, es'
+extra:
+    social:
+      - icon: fontawesome/brands/github-alt
+        link: 'https://github.com/dodero'
+#      - type: 'github'
+#        link: 'https://github.com/dodero'
+#      - type: 'twitter'
+#        link: 'https://twitter.com/jmdodero'
+
+
